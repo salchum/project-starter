@@ -1,8 +1,10 @@
 # STATUS — Current State & TODOs
 
-<!-- Read this first after CLAUDE.md. Tells an agent what's decided vs. still open,
+<!-- Read this first after AGENTS.md. Tells an agent what's decided vs. still open,
      so it doesn't have to diff every file to find out. Update as you go —
      stale STATUS.md is worse than none. -->
+
+See ROADMAP.md for phase sequencing and effort estimates (if present).
 
 ## Decided
 

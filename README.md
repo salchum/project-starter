@@ -15,7 +15,8 @@ itself.
 
 | File | Purpose |
 |---|---|
-| `CLAUDE.md` | Entry point — tells the agent what order to read everything in |
+| `AGENTS.md` | Canonical entry point — tells the agent what order to read everything in |
+| `CLAUDE.md` | Pointer to AGENTS.md, for tools that only look for CLAUDE.md |
 | `INIT.md` | One-time bootstrap interview (deleted after first use) |
 | `STATUS.md` | What's decided, what's open, what's blocked |
 | `PRD.md` | Product requirements |
@@ -23,6 +24,7 @@ itself.
 | `SCHEMA.md` | Abstract data model (entities/relationships/constraints) |
 | `DESIGN.md` | UI/UX flow and design system |
 | `RULES.md` | Business rules |
+| `ROADMAP.md` | Phase sequencing with effort estimates (optional — only if the project ships in phases) |
 
 Tech stack is intentionally unspecified until a project picks one —
 this template isn't tied to any language or framework.
