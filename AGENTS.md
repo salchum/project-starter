@@ -15,13 +15,15 @@ project is initialized.
 
 ## Read Order
 
-1. **STATUS.md** — what's decided, what's still open, what's blocked (read this first)
-2. **PRD.md** — what we're building and why (requirements, scope, users)
-3. **ARCHITECTURE.md** — how the system is built (stack, components, boundaries)
-4. **SCHEMA.md** — the data model (entities, relationships, constraints)
-5. **DESIGN.md** — UI/UX flow and design system
-6. **RULES.md** — business rules that constrain behavior (non-negotiable logic)
-7. **ROADMAP.md** — if present, phase sequencing and effort estimates
+1. **HANDOVER.md** — where the last session left off; read this before
+   STATUS.md, since it tells you whether STATUS.md is still accurate
+2. **STATUS.md** — what's decided, what's still open, what's blocked
+3. **PRD.md** — what we're building and why (requirements, scope, users)
+4. **ARCHITECTURE.md** — how the system is built (stack, components, boundaries)
+5. **SCHEMA.md** — the data model (entities, relationships, constraints)
+6. **DESIGN.md** — UI/UX flow and design system
+7. **RULES.md** — business rules that constrain behavior (non-negotiable logic)
+8. **ROADMAP.md** — if present, phase sequencing and effort estimates
 
 ## Rule
 
@@ -30,6 +32,12 @@ before proposing or writing code, unless the user explicitly says to skip
 this step. If any file is still full of `[PLACEHOLDER]` tokens, treat that
 section as undefined — ask the user or state the assumption you're making
 instead of guessing silently.
+
+Before ending a session or task, update HANDOVER.md as your last action —
+overwrite it (not append), summarizing what was just done, anything
+in-flight/uncommitted, and the single concrete next step. Do this every
+time, not just when asked; a handover that only exists on request fails
+exactly when it's needed most.
 
 ## Notes for the agent
 

@@ -18,6 +18,7 @@ itself.
 | `AGENTS.md` | Canonical entry point — tells the agent what order to read everything in |
 | `CLAUDE.md` | Pointer to AGENTS.md, for tools that only look for CLAUDE.md |
 | `INIT.md` | One-time bootstrap interview (deleted after first use) |
+| `HANDOVER.md` | Where the last session left off — overwritten every session |
 | `STATUS.md` | What's decided, what's open, what's blocked |
 | `PRD.md` | Product requirements |
 | `ARCHITECTURE.md` | Tech stack and system design |

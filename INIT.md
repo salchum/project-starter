@@ -69,5 +69,9 @@ before it, so don't skip ahead):
 
 - Confirm with the user that every file looks right.
 - Delete this file (`INIT.md`).
+- Write HANDOVER.md as the closing action, same as any other session
+  (see AGENTS.md's Rule section) — summarize what was just bootstrapped
+  and set "Next step" to the actual next move (e.g. "start building the
+  first feature").
 - Do not proceed to writing code in the same turn — bootstrapping the docs
   is the task; implementation is a separate, later request.
