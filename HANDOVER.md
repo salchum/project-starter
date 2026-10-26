@@ -5,8 +5,9 @@
      STATUS.md's "Decided" section). Read this before STATUS.md: it tells
      you whether STATUS.md's "Open/TODO" is even still accurate.
 
-     Every agent updates this as its LAST action before ending a session
-     or task, per AGENTS.md's Rule section — not just when asked. Keep it
+     The standalone session owner, or designated PM during team operation,
+     updates this as its LAST documentation action per AGENTS.md. Other
+     team roles write task-specific reports. Keep it
      short: its entire value is being read fast at the start of a session. -->
 
 ## Last session ended

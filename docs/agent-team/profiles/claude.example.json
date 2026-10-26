@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "name": "claude-example",
+  "enabled": false,
+  "host": "t3",
+  "activation": "configure-and-validate-before-use",
+  "billingPolicy": "existing-authorized-subscription-only",
+  "automaticProviderFallback": false,
+  "roles": {
+    "pm": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-opus-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "team-leader": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "worker": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-haiku-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "reviewer": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    }
+  }
+}

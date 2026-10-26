@@ -1,0 +1,19 @@
+{
+  "taskId": "REQUIRED",
+  "attemptId": "REQUIRED",
+  "status": "queued",
+  "statusWriter": "REQUIRED",
+  "parentTaskId": null,
+  "dependencyTaskIds": [],
+  "policyCommit": "REQUIRED",
+  "baseCommit": "REQUIRED",
+  "resultCommit": null,
+  "threadId": null,
+  "hostTaskId": null,
+  "correctionRounds": 0,
+  "pendingChildTaskIds": [],
+  "mergeState": "not-authorized",
+  "deploymentState": "not-authorized",
+  "updatedAt": "REQUIRED",
+  "history": []
+}

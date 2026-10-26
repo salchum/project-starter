@@ -33,11 +33,18 @@ this step. If any file is still full of `[PLACEHOLDER]` tokens, treat that
 section as undefined — ask the user or state the assumption you're making
 instead of guessing silently.
 
-Before ending a session or task, update HANDOVER.md as your last action —
-overwrite it (not append), summarizing what was just done, anything
-in-flight/uncommitted, and the single concrete next step. Do this every
-time, not just when asked; a handover that only exists on request fails
-exactly when it's needed most.
+For standalone sessions, update HANDOVER.md as the last action with completed
+work, in-flight changes, and the concrete next step. During an explicitly enabled
+agent-team workflow, only the designated repository PM updates that shared
+summary. Other roles write their assigned task-specific reports; reconcile PM
+ownership before a standalone session replaces a team handover.
+
+## Optional agent-team workflow
+
+When the user enables a team workflow, assigns a team role, or requests delegation,
+team review, pause, or recovery, read [the team entry point](docs/agent-team/README.md).
+Otherwise continue the normal project workflow. The team module is inactive until
+its project operating plan and provider profile are configured and approved.
 
 ## Notes for the agent
 
