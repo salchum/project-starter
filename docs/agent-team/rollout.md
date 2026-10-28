@@ -26,7 +26,8 @@ do not configure the host. Before delegation, send the PM the
 Adopting a profile does not reconfigure running threads on its own. Switch an
 existing PM's provider or profile only after human approval, on the same PM
 thread outside an active run, through the host adapter (T3: step 6 of
-[PM binding](adapters/t3.md#preflight-and-pm-binding)).
+[PM binding](adapters/t3.md#preflight-and-pm-binding)). Read back the provider,
+model, and options before the PM resumes from its recorded handover.
 
 Every child receives a complete packet, including policy and source SHAs, allowed
 scope, required checks, approvals, and report location. Match the parent's actual
