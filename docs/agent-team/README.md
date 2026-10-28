@@ -15,9 +15,11 @@ The human decides whether a team is appropriate and approves its authority.
 3. Read only the assigned role: [PM](roles/pm.md),
    [team leader](roles/team-leader.md), [worker](roles/worker.md), or
    [reviewer](roles/reviewer.md).
-4. Select a configured, enabled profile. Files in profiles/ are disabled examples
+4. Use the configured, enabled profile the human explicitly selected; name it and
+   the full policy SHA in every packet. Files in profiles/ are disabled examples
    with environment-specific model IDs. Check live provider availability, option
-   names, authentication, and billing before activation. No silent paid fallback.
+   names, authentication, and billing before activation. No silent paid fallback
+   or automatic provider/profile switch.
 5. Read the host adapter; [T3](adapters/t3.md) is provided as an agent-operated
    procedure. Other hosts need their own launch/status/cancel/isolation adapter.
 6. Create a complete packet from [the templates](templates/README.md). Stop and

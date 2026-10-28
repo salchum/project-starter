@@ -22,6 +22,12 @@ Apply the profile through actual host model-selection settings. JSON files alone
 do not configure the host. Use prompts/bootstrap-pm.md for readiness inspection
 before delegation.
 
+Adopting or switching a profile reconfigures no running thread. To move an
+existing PM to another provider or profile, keep the same PM thread: after the
+human approves the policy change, configure that thread while it has no active
+run, read back its provider, model, and options, then resume from the recorded
+handover. The switch never creates a second permanent PM for the repository.
+
 Every child receives a complete packet, including policy and source SHAs, allowed
 scope, required checks, approvals, and report location. Match the parent's actual
 baseline before launching a writer. Child preflight verifies its own initial SHA.

@@ -11,7 +11,8 @@
       "providerInstanceId": "claudeAgent",
       "model": "claude-opus-5-5",
       "options": {
-        "effort": "medium"
+        "effort": "medium",
+        "fastMode": false
       }
     },
     "team-leader": {
