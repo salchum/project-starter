@@ -57,6 +57,11 @@ Prompt rules and example profiles are cooperative policy. Document which limits
 are enforced by the host, which require a separate control, and which depend on
 human supervision. Record untested behavior explicitly.
 
+Subscription quota exhaustion pauses affected work. Follow
+[provider continuation](provider-continuation.md) to preserve partial work and
+record the user's choice to wait or switch the specified roles. Adoption of
+this procedure does not activate profiles or authorize automatic fallback.
+
 ## Execution paths
 
 - **Light:** one repository, one bounded deliverable, and no meaningful

@@ -25,6 +25,10 @@ The human decides whether a team is appropriate and approves its authority.
 6. Create a complete packet from [the templates](templates/README.md). Stop and
    report the missing prerequisite if any required field remains unresolved.
 
+When subscription quota blocks a role in an enabled team, follow
+[provider continuation](provider-continuation.md) for checkpointing, explicit
+target selection, and verified ownership before resuming.
+
 For a single repository, its PM is the coordinator. For multiple repositories,
 the human designates a coordination PM/repository and defines contract ownership
 in the operating plan. Resolve policy by verified path/remote identity and commit;
