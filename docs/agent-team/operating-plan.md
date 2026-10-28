@@ -22,10 +22,10 @@ file in the project's policy repository; reference its committed SHA in tasks.
 
 ## Workflow rules
 
-A PM assigns a bounded deliverable with acceptance criteria. Its leader creates
-technical/test plans, delegates complete task packets, reviews worker evidence,
-and verifies the integrated result. The PM reviews architecture, completeness,
-and relevant security implications. Changes in the sensitive categories listed
+A PM assigns a bounded deliverable with acceptance criteria and records its
+risk, complexity, and [execution path](#execution-paths) in the brief. The PM
+reviews architecture, completeness, and relevant security implications.
+Changes in the sensitive categories listed
 in [the PM role](roles/pm.md) step 5 receive an independent reviewer who did not
 author the implementation.
 
@@ -56,6 +56,32 @@ duplicate workers after an uncertain launch or restart.
 Prompt rules and example profiles are cooperative policy. Document which limits
 are enforced by the host, which require a separate control, and which depend on
 human supervision. Record untested behavior explicitly.
+
+## Execution paths
+
+- **Light:** one repository, one bounded deliverable, and no meaningful
+  decomposition. The PM executes within its own ownership, or assigns one
+  executor counted against worker slots who reports directly to the PM.
+  No leader is needed.
+- **Standard:** use a leader when the deliverable needs several task packets,
+  combined-result integration, or cross-repository coordination. The leader
+  creates technical/test plans, delegates packets, reviews worker evidence,
+  and verifies the integrated result before PM acceptance.
+
+Both paths retain the same brief, committed base, isolated writes, approval
+gates, evidence, correction limit, and closure. The independent-review rule in
+[Workflow rules](#workflow-rules) applies to both paths. If a light task reveals
+decomposition, a cross-repository dependency, or a scope change, stop and return
+to the PM for a revised brief before continuing.
+
+## Cross-provider review
+
+The optional [mixed example](profiles/claude-codex-review.example.json) combines
+the Claude example's PM, leader, and worker with the Codex example's reviewer.
+It remains disabled until configured and validated through [setup](rollout.md).
+Select the human-approved configured profile explicitly for each task and record
+it in the brief; this is not a fallback or a change to any active thread.
+Verify access and supported options for every provider used by that task.
 
 ## Closure
 

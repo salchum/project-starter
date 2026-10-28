@@ -3,9 +3,11 @@
 - Parent assignment / dependency task IDs: REQUIRED (or explicitly none)
 - Owning repository / remote identity: REQUIRED
 - Accountable PM / status writer / integration owner: REQUIRED
+- Author / independent reviewer: REQUIRED (or reviewer not required, with reason)
+- Risk / complexity / execution path (light or standard) and rationale: REQUIRED
 - Policy checkout path and full policy commit SHA: REQUIRED
 - Human-selected profile / role / provider / model / explicit options: REQUIRED
-- Base commit SHA / branch / isolated worktree: REQUIRED
+- Base commit SHA / branch / isolated worktree / reviewed SHA (for review): REQUIRED
 - Permitted files and behavior: REQUIRED
 - Out of scope: REQUIRED
 - Design references and shared contracts: REQUIRED
@@ -14,7 +16,7 @@
 - Remaining approval gates, including local commit/push: REQUIRED
 - Global slot reservation / active-work checkpoint: REQUIRED
 - Acceptance criteria and required test commands/environments: REQUIRED
-- Stop/escalation conditions: REQUIRED
+- Project-configured correction limit / stop/escalation conditions: REQUIRED
 - Result path and expected evidence: REQUIRED
 
 ## Decisions

@@ -55,7 +55,9 @@ project-specific publication/deployment rules. A user disconnect grants no appro
 
 ## Supervised pilot
 
-Start with one leader and one worker on a harmless bounded deliverable. Test
+For a light-path trial, use a harmless bounded deliverable with the PM or one
+executor and the review required by the brief. This does not test nested
+delegation. For a standard-path pilot, use one leader and one worker. Test
 nested delegation, returned settings, worktree isolation, uncommitted-change
 exclusion, result delivery, integration, and independent review against a named
 revision. Correct findings before extending the workflow.
