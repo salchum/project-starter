@@ -4,7 +4,7 @@
 - Owning repository / remote identity: REQUIRED
 - Accountable PM / status writer / integration owner: REQUIRED
 - Policy checkout path and full policy commit SHA: REQUIRED
-- Profile / role / provider / model / explicit options: REQUIRED
+- Human-selected profile / role / provider / model / explicit options: REQUIRED
 - Base commit SHA / branch / isolated worktree: REQUIRED
 - Permitted files and behavior: REQUIRED
 - Out of scope: REQUIRED

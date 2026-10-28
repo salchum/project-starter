@@ -11,7 +11,7 @@ coordination. All PMs apply the same user approval boundaries.
 3. Identify dependencies and affected repositories. For shared-contract work,
    agree an owner, compatible rollout order, and rollback with the coordination PM.
 4. Request the needed global role slots. Assign a leader a bounded deliverable,
-   explicit profile, policy SHA, base commit, and acceptance criteria.
+   explicit profile, full policy SHA, base commit, and acceptance criteria.
 5. Review the integrated diff and evidence against architecture, security,
    completeness, and dependent repository contracts. Use an independent reviewer
    for authentication, authorization, sensitive-data, or trust-boundary changes.

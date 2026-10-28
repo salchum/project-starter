@@ -22,7 +22,7 @@ Apply the profile through actual host model-selection settings. JSON files alone
 do not configure the host. Use prompts/bootstrap-pm.md for readiness inspection
 before delegation.
 
-Adopting or switching a profile reconfigures no running thread. To move an
+Adopting a profile does not reconfigure running threads on its own. To move an
 existing PM to another provider or profile, keep the same PM thread: after the
 human approves the policy change, configure that thread while it has no active
 run, read back its provider, model, and options, then resume from the recorded
