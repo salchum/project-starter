@@ -30,10 +30,6 @@ the human designates a coordination PM/repository and defines contract ownership
 in the operating plan. Resolve policy by verified path/remote identity and commit;
 do not assume sibling directory names establish trust or ownership.
 
-The PM owns repository-wide handovers and the task index. Workers and reviewers
-write separate task reports. Give every task one status writer, record host task
-IDs and attempts, and bind reviews to exact commits.
-
-This instruction module is not a daemon, scheduler, lock, budget controller, or
-automatic model selector. Keep pilot operation supervised until the required
-host behavior is independently verified.
+This module is instructions only: not a daemon, scheduler, lock, budget
+controller, or automatic model selector. [The operating plan](operating-plan.md)
+records which limits anything actually enforces.

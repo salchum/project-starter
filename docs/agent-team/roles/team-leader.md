@@ -15,8 +15,5 @@ Own one deliverable, its technical/test plan, and integration.
    run relevant combined checks; conflict resolution can invalidate earlier review.
 6. Send the integrated SHA, evidence, review dispositions, remaining risks, and
    dependency state to the repository PM.
-7. Close accepted temporary workers/reviewers using [the lifecycle checks](../lifecycle.md).
-   The PM closes this leader thread after accepting its deliverable.
-
-Use fresh delegated tasks for new review rounds, carrying prior findings and
-responses. Submit a task-specific result; the PM owns the root HANDOVER.md.
+7. Close accepted temporary workers/reviewers using
+   [the closure checks](../operating-plan.md#closure).

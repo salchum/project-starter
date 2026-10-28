@@ -18,7 +18,7 @@ itself.
 | `AGENTS.md` | Canonical entry point — tells the agent what order to read everything in |
 | `CLAUDE.md` | Pointer to AGENTS.md, for tools that only look for CLAUDE.md |
 | `INIT.md` | One-time bootstrap interview (deleted after first use) |
-| `HANDOVER.md` | Session continuity; the PM owns it during team workflows |
+| `HANDOVER.md` | Where the last session left off — overwritten every session |
 | `STATUS.md` | What's decided, what's open, what's blocked |
 | `PRD.md` | Product requirements |
 | `ARCHITECTURE.md` | Tech stack and system design |
@@ -33,14 +33,7 @@ this template isn't tied to any language or framework.
 ## Optional agent teams
 
 For projects that need coordinated agents, [docs/agent-team/README.md](docs/agent-team/README.md)
-provides provider-neutral PM, team-leader, worker, and reviewer roles; task and
-review templates; disabled example profiles; and a T3 adapter procedure.
-
-The module is opt-in. Complete normal project bootstrap, then configure its
-operating plan and select a supported profile before delegating. Example model
-IDs must be checked against the actual host catalog. These files neither launch
-agents nor enforce concurrency or spending limits by themselves.
-
-Use a supervised pilot first. Import the module into existing projects through
-targeted instruction changes, preserving their project and deployment rules.
-Changes to this template do not automatically update existing repositories.
+provides opt-in, provider-neutral PM, team-leader, worker, and reviewer roles;
+task and review templates; disabled example profiles; and a T3 adapter
+procedure. The files are instructions: they launch nothing and enforce no limits
+by themselves. Start with that README.

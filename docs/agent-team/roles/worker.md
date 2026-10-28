@@ -11,8 +11,7 @@ Own the bounded task in the supplied packet.
 4. Return the changed files and commit SHA when committing is authorized. If local
    commit permission is pending, return a reviewable diff and mark the task blocked
    for integration; do not claim a committed result.
-5. Complete ../templates/result.md under the assigned task path. Leave the root
-   HANDOVER.md and shared task indexes to their designated owners.
+5. Complete ../templates/result.md under the assigned task path.
 
 The task is ready for review when each criterion maps to a change and evidence,
 or an explicit unresolved failure. A worker cannot approve its own deliverable,

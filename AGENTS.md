@@ -43,8 +43,7 @@ ownership before a standalone session replaces a team handover.
 
 When the user enables a team workflow, assigns a team role, or requests delegation,
 team review, pause, or recovery, read [the team entry point](docs/agent-team/README.md).
-Otherwise continue the normal project workflow. The team module is inactive until
-its project operating plan and provider profile are configured and approved.
+Otherwise continue the normal project workflow.
 
 ## Notes for the agent
 

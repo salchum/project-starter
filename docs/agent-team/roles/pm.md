@@ -19,8 +19,8 @@ coordination. All PMs apply the same user approval boundaries.
    Acceptance does not authorize merging, publishing, tagging, or deployment.
 7. Update the task index and repository handover, retaining unresolved deployment
    context and links to previous task records.
-8. Close accepted temporary child threads using [the lifecycle checks](../lifecycle.md).
-   Keep the ongoing repository PM thread active.
+8. Close accepted temporary child threads using
+   [the closure checks](../operating-plan.md#closure).
 
 The task is accepted only when all required children and reviews reference the
 accepted integrated commit and all acceptance criteria have evidence. Report

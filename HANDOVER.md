@@ -5,10 +5,8 @@
      STATUS.md's "Decided" section). Read this before STATUS.md: it tells
      you whether STATUS.md's "Open/TODO" is even still accurate.
 
-     The standalone session owner, or designated PM during team operation,
-     updates this as its LAST documentation action per AGENTS.md. Other
-     team roles write task-specific reports. Keep it
-     short: its entire value is being read fast at the start of a session. -->
+     Updated as the LAST documentation action by the owner AGENTS.md
+     names. Keep it short: its entire value is being read fast at the start of a session. -->
 
 ## Last session ended
 
