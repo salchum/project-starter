@@ -18,7 +18,7 @@ configure the human's model choices; the shipped examples are not fixed staffing
    approval boundaries. A role grants responsibility, not broader permission.
 3. Read only the assigned role: [PM](roles/pm.md),
    [team leader](roles/team-leader.md), [worker](roles/worker.md), or
-   [reviewer](roles/reviewer.md), or [tester](roles/tester.md).
+   [reviewer](roles/reviewer.md), [tester](roles/tester.md), or [Git worker](roles/git-worker.md).
 4. Use the configured, enabled profile the human explicitly selected; name it and
    the full policy SHA in every packet. Files in profiles/ are disabled examples
    with environment-specific model IDs. Check live provider availability, option

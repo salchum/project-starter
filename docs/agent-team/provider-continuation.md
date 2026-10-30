@@ -81,6 +81,7 @@ a proposed new profile must complete normal policy adoption before runtime use.
 | Worker | The manager assigns one replacement attempt with the partial-work packet and the same acceptance criteria. |
 | Team leader | Hand over the technical plan, integration state, child inventory and pending reviews. Verify routing/ownership of existing children; if the host cannot transfer them, reconcile and close/supersede them before replacement dispatch. |
 | Reviewer | Start a fresh review round on the exact candidate SHA with all prior findings. An interrupted review is not PASS. |
+| Git worker | Reconcile local commits, index and remote refs before replacement or retry under [the Git worker procedure](roles/git-worker.md); a missing response is not proof that commit or push failed. |
 | Tester | Preserve the approved plan and per-scenario results; the replacement verifies candidate/environment and completes or reruns affected scenarios under [the tester rules](roles/tester.md). Incomplete mandatory coverage stays blocked. |
 | PM | Keep the same accountable PM thread; configure it only outside an active run, then read back its binding and exact options before resuming. |
 

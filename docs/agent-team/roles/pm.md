@@ -28,3 +28,8 @@ coordination. All PMs apply the same user approval boundaries.
 The task is accepted only when all required children and reviews reference the
 accepted integrated commit and all acceptance criteria have evidence. Report
 partial results as partial. An idle agent or completed turn is not task completion.
+
+For authorized routine commit/push or fast-forward integration, assign
+[the Git worker](git-worker.md) by default using its compact operation packet.
+Keep scope/approval decisions with the PM and conflict resolution with the leader.
+Validate the returned SHAs and result record, then summarize for the user.

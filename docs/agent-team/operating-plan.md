@@ -66,6 +66,11 @@ this procedure does not activate profiles or authorize automatic fallback.
 
 ## Execution paths
 
+Routine authorized Git operations use [the Git worker](roles/git-worker.md)
+as a light task with a compact packet. Choose its supported low-reasoning model
+during setup; preserve single-provider or multi-provider selection. Example
+profiles remain disabled. Actual token savings require observed usage.
+
 - **Light:** one repository, one bounded deliverable, and no meaningful
   decomposition. The PM executes within its own ownership, or assigns one
   executor counted against worker slots who reports directly to the PM.

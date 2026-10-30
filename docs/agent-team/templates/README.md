@@ -4,6 +4,11 @@ Copy these templates into the owning repository at
 docs/agent-team/tasks/<task-id>/. Choose a unique task ID before delegation.
 Use brief.md, status.json, result.md, and reviews/<round>.md.
 
+For a pure Git-operation light task, use the compact
+[git-operation.md](git-operation.md) brief/result packet and
+[Git worker procedure](../roles/git-worker.md). This exception reduces repeated
+context, not approvals, required checks, activity accounting or closure.
+
 Replace every REQUIRED marker before dispatch. A brief is a complete packet:
 include required policy excerpts or verified local paths, since child agents do
 not inherit the parent's conversation. Avoid credentials and production data.

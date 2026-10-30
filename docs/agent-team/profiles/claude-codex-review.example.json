@@ -29,6 +29,14 @@
         "effort": "medium"
       }
     },
+    "git-worker": {
+      "providerInstanceId": "codex",
+      "model": "gpt-6-luna",
+      "options": {
+        "reasoningEffort": "low",
+        "serviceTier": "default"
+      }
+    },
     "tester": {
       "providerInstanceId": "codex",
       "model": "gpt-6-luna",

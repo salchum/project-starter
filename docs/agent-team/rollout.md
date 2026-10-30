@@ -27,7 +27,7 @@ are not availability or quality guarantees. Commit the policy and record its SHA
    catalog and option schema. If access or a catalog is unavailable, record the
    desired choices as pending; do not invent availability or launch a probe.
 3. Let the human choose the provider, exact model and explicit supported options
-   for PM, team leader, worker, independent reviewer and tester. Reasoning names and
+   for PM, team leader, worker, independent reviewer, tester and Git worker. Reasoning names and
    levels are provider-specific; never silently translate unsupported settings.
    In single-provider mode every enabled role must use the selected provider
    instance. Multi-provider mode permits a separate selection for each role.
