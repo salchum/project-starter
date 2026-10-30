@@ -33,7 +33,10 @@ this template isn't tied to any language or framework.
 ## Optional agent teams
 
 For projects that need coordinated agents, [docs/agent-team/README.md](docs/agent-team/README.md)
-provides opt-in, provider-neutral PM, team-leader, worker, and reviewer roles;
+provides opt-in, provider-neutral PM, team-leader, worker, reviewer and tester roles;
 task and review templates; disabled example profiles; and a T3 adapter
 procedure. The files are instructions: they launch nothing and enforce no limits
 by themselves. Start with that README.
+During initialization, choose no team, one provider for all roles, or multiple
+providers with models/options selected per role. Reviewers save traceable results
+so the PM can return a linked summary of findings, owners and user decisions.

@@ -19,6 +19,9 @@ coordination. All PMs apply the same user approval boundaries.
    Acceptance does not authorize merging, publishing, tagging, or deployment.
 7. Update the task index and repository handover, retaining unresolved deployment
    context and links to previous task records.
+   Record your own acceptance review and return
+   [the user summary](../templates/pm-summary.md) using the verified records in
+   [review recording](../templates/README.md#review-recording).
 8. Close accepted temporary child threads using
    [the closure checks](../operating-plan.md#closure).
 

@@ -61,9 +61,18 @@ before it, so don't skip ahead):
    user confirm/adjust the phases and supply a day-range effort estimate
    for each (e.g. "10-20 days") — don't invent estimates yourself.
 
-7. **STATUS.md** — Last step. Summarize what was just decided into the
+7. **Agent-team preference** — Ask whether this project will use a single
+   agent without a team, a team using one provider, or a team using multiple
+   providers. An unanswered choice leaves the team inactive. For a team choice,
+   follow [provider and role selection](docs/agent-team/rollout.md#provider-and-role-selection)
+   to let the user choose providers, models and supported reasoning/options per
+   role. Record the choice during bootstrap; launching agents is a later step.
+
+8. **STATUS.md** — Last step. Summarize what was just decided into the
    "Decided" section. Leave "Open/TODO" and "Blocked" empty unless
    something concrete came up during the interview.
+   Include the team choice, selected profile path(s), and pending validation or
+   activation prerequisites. Do not label an unvalidated profile ready.
 
 ## When done
 

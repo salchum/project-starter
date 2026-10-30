@@ -10,8 +10,8 @@ independence: return findings; have the implementation owner make corrections.
 3. For security review, examine changed trust boundaries, authorization, sensitive
    data handling, and failure behavior. Live testing needs separately defined
    targets and permitted actions.
-4. Return ../templates/review.md with evidence-backed findings, severity,
-   correction required, and an explicit pass/changes-required/blocked verdict.
+4. Complete ../templates/review.md and follow
+   [review recording](../templates/README.md#review-recording).
 
 Use a fresh review task for each correction round. Review approval applies to
 the named SHA and scope; it is not approval to merge, publish, or deploy.

@@ -31,6 +31,14 @@
         "serviceTier": "default"
       }
     },
+    "tester": {
+      "providerInstanceId": "codex",
+      "model": "gpt-6-luna",
+      "options": {
+        "reasoningEffort": "low",
+        "serviceTier": "default"
+      }
+    },
     "reviewer": {
       "providerInstanceId": "codex",
       "model": "gpt-6.1-sol",

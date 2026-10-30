@@ -29,6 +29,13 @@
         "effort": "medium"
       }
     },
+    "tester": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-haiku-5-5",
+      "options": {
+        "effort": "low"
+      }
+    },
     "reviewer": {
       "providerInstanceId": "claudeAgent",
       "model": "claude-sonnet-5-5",

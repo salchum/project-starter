@@ -12,6 +12,8 @@ file in the project's policy repository; reference its committed SHA in tasks.
 - Human approval gates for scope, architecture, risk, commits, publication,
   merges, deployment, spending, and live testing: REQUIRED
 - Selected configured provider/model profiles: REQUIRED
+- Team mode (single provider / multiple providers), approved provider instances,
+  role mappings and worker-variant selection rule: REQUIRED
 - Maximum active leaders/workers and how all repositories share that limit: REQUIRED
 - Maximum unsuccessful correction rounds and escalation owner: REQUIRED
 - Active-work checkpoint/deadline and actual enforcement mechanism: REQUIRED
@@ -79,6 +81,22 @@ gates, evidence, correction limit, and closure. The independent-review rule in
 decomposition, a cross-repository dependency, or a scope change, stop and return
 to the PM for a revised brief before continuing.
 
+## Independent testing
+
+The team leader prepares and approves [the test plan](templates/test-plan.md)
+and scenarios before assigning [the tester](roles/tester.md). On a light path
+without a leader, the PM performs that preparation. Test the integrated candidate
+after code review and collect mandatory functional/integration/regression
+coverage as defined in the plan before release readiness or a configured security
+audit. Non-code tasks may record testing as not applicable with a rationale;
+release candidates require tester evidence.
+
+Use a distinct non-author tester assignment. Initially run one tester sequentially,
+counted against worker capacity, and include it in activity accounting and closure.
+Select its model/options during [setup](rollout.md#provider-and-role-selection).
+Example low-reasoning mappings are configurable suggestions, not proof of the
+lowest cost or successful runtime use.
+
 ## Cross-provider review
 
 The optional [mixed example](profiles/claude-codex-review.example.json) combines
@@ -90,8 +108,8 @@ Verify access and supported options for every provider used by that task.
 
 ## Closure
 
-The assigning manager closes temporary task threads: leaders close the worker
-and reviewer tasks they assigned; PMs close accepted leader and reviewer tasks.
+The assigning manager closes temporary task threads: leaders close the worker,
+tester and reviewer tasks they assigned; PMs close accepted leader and reviewer tasks.
 A temporary coordinator is closed after its deliverable is accepted by its
 supervising owner, or by the human or coordinating conversation when no agent
 supervises it.

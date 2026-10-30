@@ -7,6 +7,10 @@ For setup, follow [the rollout guide](rollout.md). Before dispatch, complete
 [the operating plan](operating-plan.md) for the project and commit the policy.
 The human decides whether a team is appropriate and approves its authority.
 
+INIT.md offers no team, a single-provider team, or a multi-provider team.
+Use [provider and role selection](rollout.md#provider-and-role-selection) to
+configure the human's model choices; the shipped examples are not fixed staffing.
+
 ## Assignment entry point
 
 1. Read the current repository's AGENTS.md and required project documents.
@@ -14,7 +18,7 @@ The human decides whether a team is appropriate and approves its authority.
    approval boundaries. A role grants responsibility, not broader permission.
 3. Read only the assigned role: [PM](roles/pm.md),
    [team leader](roles/team-leader.md), [worker](roles/worker.md), or
-   [reviewer](roles/reviewer.md).
+   [reviewer](roles/reviewer.md), or [tester](roles/tester.md).
 4. Use the configured, enabled profile the human explicitly selected; name it and
    the full policy SHA in every packet. Files in profiles/ are disabled examples
    with environment-specific model IDs. Check live provider availability, option

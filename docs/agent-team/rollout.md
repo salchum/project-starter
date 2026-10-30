@@ -2,7 +2,8 @@
 
 ## Configure
 
-Finish the project's normal bootstrap first. For an existing project, preserve
+During normal bootstrap, record the team choice using the selection procedure
+below. Finish bootstrap before runtime activation. For an existing project, preserve
 its requirements and deployment rules rather than replacing root files wholesale;
 import AGENTS and HANDOVER ownership changes as targeted patches. Upgrading
 project-starter does not update repositories already created from it.
@@ -15,6 +16,50 @@ Copy a disabled profiles/*.example.json to a project-specific profile. Resolve
 provider/model IDs and options from the actual host catalog, verify permitted
 billing, and explicitly enable the configured copy. Example names and settings
 are not availability or quality guarantees. Commit the policy and record its SHA.
+
+### Provider and role selection
+
+1. Ask the human to choose: no team (ordinary single-agent work), single-provider
+   team, or multi-provider team. Record the answer in the project's STATUS.md.
+   No team or an unanswered choice leaves examples disabled and skips team setup.
+2. For a team, ask which installed providers/accounts the project may use and
+   confirm the host and authorized billing route. Read the host's live model
+   catalog and option schema. If access or a catalog is unavailable, record the
+   desired choices as pending; do not invent availability or launch a probe.
+3. Let the human choose the provider, exact model and explicit supported options
+   for PM, team leader, worker, independent reviewer and tester. Reasoning names and
+   levels are provider-specific; never silently translate unsupported settings.
+   In single-provider mode every enabled role must use the selected provider
+   instance. Multi-provider mode permits a separate selection for each role.
+   One provider/model may serve several roles through separate assignments;
+   authors still cannot act as their own independent reviewers.
+   For bounded test execution, propose a lightweight supported model with low
+   reasoning; let the user confirm it. Validate that the chosen model supports
+   the actual test tools. Compare cost only using relevant observed/account
+   evidence; API token prices do not measure subscription quota or task cost.
+   Never change provider to obtain a cheaper tester in single-provider mode.
+4. Ask whether workers need one model or several selectable variants. For several,
+   create separate complete profile variants and agree who selects each variant
+   per task and what rationale is recorded. Keep one worker selection per packet.
+   Additional specialist roles, such as a security auditor, require their role,
+   trigger/gate and report format to be defined in project policy before enabling;
+   then let the human select their provider/model/options by the same rules.
+5. Present the complete role mapping, worker-selection rule, limits, reporting
+   owner and remaining approvals for confirmation. Record the confirmed choice
+   in operating-plan.md and project-specific profile copies. Preserve the
+   disabled example files. Keep configured copies disabled while any validation
+   or approval remains unresolved. A selection is not an automatic provider
+   switch, permission to create threads or permission for API fallback.
+6. Validate configured profile JSON, all role mappings and options, permitted
+   subscription access and host support. Single-provider mode must contain
+   exactly the selected provider instance; multiple-provider mode must contain
+   only approved instances. Complete the operating plan, obtain required commit
+   approval, then enable the confirmed configured copies and commit the policy.
+   Proceed to binding/preflight below only after bootstrap and these gates finish.
+
+If the human already supplied these choices, reconcile and confirm the completed
+mapping rather than repeating the interview. Existing projects may use this
+section directly; a template update does not activate teams or change live tasks.
 
 ## Bind and preflight
 

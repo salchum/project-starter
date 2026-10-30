@@ -18,6 +18,7 @@
 - Acceptance criteria and required test commands/environments: REQUIRED
 - Project-configured correction limit / stop/escalation conditions: REQUIRED
 - Result path and expected evidence: REQUIRED
+- For tester tasks: approved test-plan path/version, scenario IDs and test-result path: REQUIRED (otherwise not applicable)
 
 ## Decisions
 
