@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "name": "devsecops-b",
+  "enabled": false,
+  "host": "t3",
+  "team": "devsecops",
+  "activation": "explicit-adoption-selection-and-preflight-required",
+  "selection": "per-parent-task-frozen",
+  "billingPolicy": "existing-authorized-subscription-only",
+  "automaticProviderFallback": false,
+  "automaticActiveThreadChange": false,
+  "roles": {
+    "devsecops-pm": {
+      "providerInstanceId": "codex",
+      "model": "gpt-6-astra",
+      "options": {
+        "reasoningEffort": "medium",
+        "serviceTier": "default"
+      }
+    },
+    "devops-engineer": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "security-engineer": {
+      "providerInstanceId": "codex",
+      "model": "gpt-6-astra",
+      "options": {
+        "reasoningEffort": "high",
+        "serviceTier": "default"
+      }
+    },
+    "worker": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-haiku-5-5",
+      "options": {
+        "effort": "low"
+      }
+    }
+  }
+}

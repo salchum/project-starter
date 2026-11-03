@@ -114,3 +114,23 @@ reboot shared machines, kill unrelated tasks, or spend quota to induce failures.
 
 Declare success only for demonstrated behavior. Before widening scope or
 concurrency, record in the operating plan which controls remain supervised.
+
+## Specialist setup and pilots
+
+When the human selects DevSecOps or UI/UX, use the [specialist policy](specialists/README.md)
+and its team-specific role definitions and packets. Preserve no-team and normal
+bootstrap choices; selecting DevSecOps does not install CI during bootstrap.
+Offer DevSecOps package A and UI/UX mixed as defaults for confirmation, with package B
+and explicitly selected single-provider UI/UX alternatives. DevSecOps provider
+separation requires both providers; do not claim a single-provider configuration
+meets that policy. Validate profiles and reserve shared global capacity before use.
+Keep examples disabled; configure project copies, commit and record explicit adoption.
+Do not automatically create permanent manager threads or change active tasks.
+
+After adoption, use one deployment path for local/sandbox validation (no real deploy)
+and one small user flow through prototype and handoff (no automatic production
+integration). Pin source baselines and acceptance evidence first; select nonconflicting
+scopes with the repository owner. Record prepared/validated/applied status, actual
+checks, original independent reviews and limitations. Check evidence completeness,
+result usefulness, scope compliance and resumability; report time/usage only when
+observed. Expand concurrency only after explicit global approval and validation.

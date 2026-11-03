@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "name": "uiux-mixed",
+  "enabled": false,
+  "host": "t3",
+  "team": "uiux",
+  "activation": "explicit-adoption-selection-and-preflight-required",
+  "selection": "per-parent-task-frozen",
+  "billingPolicy": "existing-authorized-subscription-only",
+  "automaticProviderFallback": false,
+  "automaticActiveThreadChange": false,
+  "roles": {
+    "design-manager": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "ux-designer": {
+      "providerInstanceId": "codex",
+      "model": "gpt-6.1-sol",
+      "options": {
+        "reasoningEffort": "medium",
+        "serviceTier": "default"
+      }
+    },
+    "ui-designer": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "content-designer": {
+      "providerInstanceId": "codex",
+      "model": "gpt-6.1-sol",
+      "options": {
+        "reasoningEffort": "medium",
+        "serviceTier": "default"
+      }
+    },
+    "ux-engineer": {
+      "providerInstanceId": "codex",
+      "model": "gpt-6.1-sol",
+      "options": {
+        "reasoningEffort": "medium",
+        "serviceTier": "default"
+      }
+    }
+  }
+}

@@ -140,3 +140,10 @@ completed run is no reason to settle it. Retain branches, commits, and worktrees
 unless their cleanup is separately approved. A later correction gets a new
 task/review round with the prior context; settled history remains part of the
 evidence chain.
+
+## Optional specialist teams
+
+For DevSecOps or UI/UX, configure [specialist ownership, frozen packages and shared capacity](specialists/README.md).
+Record selected teams, approved defaults/overrides, canonical artifact owners and
+global slot categories here during adoption. Their frozen-task recovery rule
+applies only to specialist tasks; existing general assignments keep their rules.

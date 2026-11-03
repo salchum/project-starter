@@ -128,3 +128,11 @@ Close superseded temporary attempts through [the closure checks](operating-plan.
 only after remaining work is assigned and pending work/requests are resolved.
 The ongoing PM remains active. Quota returning does not trigger an automatic
 switch back; any later switch follows this same decision and handover procedure.
+
+## Specialist task freeze
+
+For a DevSecOps or UI/UX task, apply the stricter
+[specialist selection and task freeze](specialists/README.md#selection-and-task-freeze):
+checkpoint and wait, or stop/supersede with an explicitly approved successor.
+The in-task model/provider switch described above is unavailable for those tasks.
+All preservation, independence, counter and live-ownership checks still apply.

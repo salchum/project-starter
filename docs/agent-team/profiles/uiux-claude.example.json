@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "name": "uiux-claude",
+  "enabled": false,
+  "host": "t3",
+  "team": "uiux",
+  "activation": "explicit-adoption-selection-and-preflight-required",
+  "selection": "per-parent-task-frozen",
+  "billingPolicy": "existing-authorized-subscription-only",
+  "automaticProviderFallback": false,
+  "automaticActiveThreadChange": false,
+  "roles": {
+    "design-manager": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "ux-designer": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "ui-designer": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "content-designer": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    },
+    "ux-engineer": {
+      "providerInstanceId": "claudeAgent",
+      "model": "claude-sonnet-5-5",
+      "options": {
+        "effort": "medium"
+      }
+    }
+  }
+}

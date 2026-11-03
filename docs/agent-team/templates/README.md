@@ -54,3 +54,11 @@ correction-round limit, mark blocked and escalate. Never reset counters by renam
 Accepted means task criteria and required reviews passed. Track merge/deployment
 separately. The single named status writer reconciles child activity before changing
 state and records timestamped reasons; elapsed time alone cannot release a slot.
+
+## Specialist task records
+
+For DevSecOps/UI/UX, extend the existing brief/result with
+[specialist-task.md](specialist-task.md). Use
+[devsecops-security-review.md](devsecops-security-review.md) for the independent
+pipeline/strategy gate and [design-handoff.md](design-handoff.md) for design delivery.
+The reporting and persistence rules above apply to every specialist review.

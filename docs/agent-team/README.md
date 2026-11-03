@@ -41,3 +41,7 @@ do not assume sibling directory names establish trust or ownership.
 This module is instructions only: not a daemon, scheduler, lock, budget
 controller, or automatic model selector. [The operating plan](operating-plan.md)
 records which limits anything actually enforces.
+
+When configuring or assigning DevSecOps or UI/UX work, read the
+[specialist entry point](specialists/README.md). Specialist managers preserve the
+repository PM ownership above; examples do not activate teams.
